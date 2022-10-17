@@ -24,6 +24,7 @@ app.use(cors());
 
 //Route Index
 app.use("/api/");
+console.log("chsange");
 
 app.get("/", (req, res) => {
 	res.send(`<div><h1>This is the AdmitONE Api</h1></div>`);
