@@ -11,3 +11,5 @@ Run `npm run start` to start the Node JS application.
 1. Using the "/api" route in the server.js import the contents of the routes.js file to create the endpoint /api/events.
 2. Use the GET request to fetch the list of events that are ongoing.
 3. Debug the issue.
+
+Goal: Have the list of events show up in Postman or in the browser correctly.
