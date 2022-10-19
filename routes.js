@@ -14,7 +14,7 @@ router.get("/events", async (req, res) => {
 			.sort({ event_start: 1 })
 			.exec();
 
-		res.status(404).send(events);
+		res.status(404).send({});
 	} catch (error) {
 		console.error(error);
 		res.status(200).send(error);
